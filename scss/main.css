@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css?family=Lato");
+/* Colors */
+/* Globals */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+html,
+body {
+  height: 100%;
+  background: #f4f4f4;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  line-height: 1.8;
+  color: #333;
+}
+
+/* Image Containers */
+.imgContainer1,
+.imgContainer2,
+.imgContainer3 {
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 1;
+  /* 
+    fixed position = parallax
+    scroll = normal 
+  */
+  background-attachment: fixed;
+}
+
+.imgContainer1 {
+  background-image: url("../img/landscapeID-01.jpg");
+  min-height: 100%;
+}
+
+.imgContainer2 {
+  background-image: url("../img/landscapeID-02.jpg");
+  min-height: 100%;
+}
+
+.imgContainer3 {
+  background-image: url("../img/landscapeID-03.jpg");
+  min-height: 100%;
+}
+
+/* Sections */
+.section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  /* vertical */
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  /* horizontal */
+  padding: 50px 80px;
+}
+
+.section.section-light {
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.section.section-dark {
+  background-color: #202020;
+  color: #f4f4f4;
+}
+
+/* img-text */
+.img-text {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+  font-size: 27px;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+}
+
+.img-text .border {
+  background-color: #000;
+  color: #f4f4f4;
+  padding: 20px;
+  opacity: .75;
+}
+
+.img-text .border.trans {
+  background-color: transparent;
+}
+
+/* Mixins */
+/*# sourceMappingURL=main.css.map */
