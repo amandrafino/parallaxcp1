@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Lato");
+
 /* Colors */
 /* 
 Next include function to change the text color 
@@ -7,11 +8,13 @@ as it relates to bg-color
 /* Globals */
 * {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+}
 
 img {
   width: 100%;
-  height: auto; }
+  height: auto;
+}
 
 html,
 body {
@@ -20,7 +23,8 @@ body {
   font-family: 'Lato', sans-serif;
   font-weight: 400;
   line-height: 1.8;
-  color: #333; }
+  color: #333;
+}
 
 /* Image Containers */
 .imgContainer1,
@@ -35,19 +39,23 @@ body {
     fixed position = parallax
     scroll = normal 
   */
-  background-attachment: fixed; }
+  background-attachment: fixed;
+}
 
 .imgContainer1 {
   background-image: url("../img/landscapeID-01.jpg");
-  min-height: 100%; }
+  min-height: 100%;
+}
 
 .imgContainer2 {
   background-image: url("../img/landscapeID-02.jpg");
-  min-height: 550px; }
+  min-height: 550px;
+}
 
 .imgContainer3 {
   background-image: url("../img/landscapeID-03.jpg");
-  min-height: 550px; }
+  min-height: 550px;
+}
 
 /* img-text */
 .img-text {
@@ -58,16 +66,19 @@ body {
   color: #000;
   font-size: 27px;
   letter-spacing: 8px;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+}
 
 .img-text .border {
   background-color: #000;
   color: #f4f4f4;
   padding: 20px;
-  opacity: .75; }
+  opacity: .75;
+}
 
 .img-text .border.trans {
-  background-color: transparent; }
+  background-color: transparent;
+}
 
 /* Sections */
 .section {
@@ -86,15 +97,18 @@ body {
   -ms-flex-align: center;
   align-items: center;
   /* horizontal */
-  padding: 50px 80px; }
+  padding: 50px 80px;
+}
 
 .section.section-light {
   background-color: #f4f4f4;
-  color: #333; }
+  color: #333;
+}
 
 .section.section-dark {
   background-color: #202020;
-  color: #f4f4f4; }
+  color: #f4f4f4;
+}
 
 /* Mixins */
 /*# sourceMappingURL=main.css.map */
