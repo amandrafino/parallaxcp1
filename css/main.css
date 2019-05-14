@@ -43,12 +43,12 @@ body {
 }
 
 .imgContainer1 {
-  background-image: url("../img/landscapeID-01.jpg");
+  background-image: url("../img/landscapeID-02.jpg");
   min-height: 100%;
 }
 
 .imgContainer2 {
-  background-image: url("../img/landscapeID-02.jpg");
+  background-image: url("../img/landscapeID-01.jpg");
   min-height: 550px;
 }
 
